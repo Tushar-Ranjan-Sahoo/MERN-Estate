@@ -1,0 +1,27 @@
+{
+  "name": "RealEstate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon backend/index.js",
+    "start": "node backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tushar-Ranjan-Sahoo/MERN-Estate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tushar-Ranjan-Sahoo/MERN-Estate/issues"
+  },
+  "homepage": "https://github.com/Tushar-Ranjan-Sahoo/MERN-Estate#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3",
+    "nodemon": "^3.0.1"
+  }
+}
