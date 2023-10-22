@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Tushar-Ranjan-Sahoo/MERN-Estate#readme",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "express": "^4.18.2",
     "mongoose": "^7.6.3",
     "nodemon": "^3.0.1"
