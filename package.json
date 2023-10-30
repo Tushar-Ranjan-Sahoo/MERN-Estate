@@ -20,11 +20,14 @@
   },
   "homepage": "https://github.com/Tushar-Ranjan-Sahoo/MERN-Estate#readme",
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.7",
     "bcrypt": "^5.1.1",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^7.6.3",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "react-redux": "^8.1.3",
+    "redux-persist": "^6.0.0"
   }
 }
