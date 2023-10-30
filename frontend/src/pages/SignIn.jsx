@@ -3,6 +3,7 @@ import './SignUp.css';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { signInStart,signInSuceess,signInFailure } from '../redux/user/userSlice.js';
+import OAuth from '../components/OAuth';
 export const SignIn = () => {
   
   const [formdData, setFormData] = useState({});
@@ -56,6 +57,7 @@ export const SignIn = () => {
         <input type="password" placeholder='password' className='border p-3 rounded-lg'id='password' onChange={handelChange} />
       
       <button disabled = {loading} className='glow-on-hover bg-slate-700 text-white p-3 rounded-lg uppercase hover:opacity-95 disabled:opacity-80'>{loading ? 'loading...': 'Sign In'}</button>
+      <OAuth />
       </form>
       <div className='flex gap-2 mt-5'>
         <p className='text-center'>Do not have an account? </p>
