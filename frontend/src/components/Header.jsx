@@ -47,7 +47,7 @@ export const Header = () => {
           </Link>
           <Link to='/sign-in'>
             {currentUser ? (
-              <img src={currentUser.avatar} alt='avatar' className='rounded-full h-7 w-7 object-cover' />
+              <img src={currentUser.rest.avatar} alt='' className='rounded-full h-7 w-7 object-cover' />
             ):<li className='text-sm sm:text-base  text-gray-200  hover:text-blue-500 hover:underline transition duration-300'>
             Sign in
           </li>}
